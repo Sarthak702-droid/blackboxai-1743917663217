@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Data Science Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-[#003569] text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">DS Portfolio</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="about.html" class="hover:text-[#E9C46A] transition">About</a>
+                <a href="projects.html" class="hover:text-[#E9C46A] transition">Projects</a>
+                <a href="skills.html" class="hover:text-[#E9C46A] transition">Skills</a>
+                <a href="contact.html" class="text-[#E9C46A] font-medium">Contact</a>
+            </div>
+            <button class="md:hidden">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-20">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold text-center mb-12 text-[#003569]">Let's Connect</h1>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h2 class="text-2xl font-bold mb-6 text-[#2A9D8F]">Send Me a Message</h2>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                            <input type="text" id="name" name="name" 
+                                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2A9D8F] focus:border-[#2A9D8F]">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email" id="email" name="email" 
+                                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2A9D8F] focus:border-[#2A9D8F]">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                            <input type="text" id="subject" name="subject" 
+                                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2A9D8F] focus:border-[#2A9D8F]">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                            <textarea id="message" name="message" rows="5" 
+                                      class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2A9D8F] focus:border-[#2A9D8F]"></textarea>
+                        </div>
+                        <button type="submit" 
+                                class="w-full bg-[#2A9D8F] hover:bg-[#1d7a6f] text-white font-medium py-3 px-4 rounded-lg transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-6 text-[#2A9D8F]">Contact Information</h2>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-[#E9C46A] text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-800">Email</h3>
+                                <p class="text-gray-600">contact@datascienceportfolio.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-[#E9C46A] text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-phone-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-800">Phone</h3>
+                                <p class="text-gray-600">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-[#E9C46A] text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-800">Location</h3>
+                                <p class="text-gray-600">San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-12">
+                        <h3 class="text-xl font-bold mb-4 text-[#2A9D8F]">Connect With Me</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-[#003569] text-white p-3 rounded-full hover:bg-[#002147] transition">
+                                <i class="fab fa-linkedin-in text-xl"></i>
+                            </a>
+                            <a href="#" class="bg-[#003569] text-white p-3 rounded-full hover:bg-[#002147] transition">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
+                            <a href="#" class="bg-[#003569] text-white p-3 rounded-full hover:bg-[#002147] transition">
+                                <i class="fab fa-kaggle text-xl"></i>
+                            </a>
+                            <a href="#" class="bg-[#003569] text-white p-3 rounded-full hover:bg-[#002147] transition">
+                                <i class="fab fa-twitter text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#003569] text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2023 Data Science Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Form validation would be added here
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Form handling logic
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
